@@ -1,0 +1,4 @@
+Hello {name}, me and me2 welcome you to our event
+
+See you there
+me2
