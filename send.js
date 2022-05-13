@@ -47,7 +47,7 @@ async function sendEmails() {
             console.log(`failed email ${g.name} ${g.email}`);
             return null;
         }
-    })
+    }, {concurrency: 1})
 }
 
 sendEmails();
